@@ -29,4 +29,5 @@ jobs:
         run: ./gradlew testDebugUnitTest
       
       - name: Run Android Tests
+        uses: vgaidarji/android-github-actions-emulator@v1.0.1
         run: ./gradlew connectedDebugAndroidTest
